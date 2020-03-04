@@ -11,7 +11,7 @@ class App extends Component {
 
   showForm = () => {
     if(this.props.isEdit === true){
-      return <NoteForm></NoteForm>
+      return <NoteForm/>
     }
   }
 
